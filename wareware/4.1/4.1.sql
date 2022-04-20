@@ -1,0 +1,1 @@
+select name, handle, email from users where enabled = 't' and image is null order by name asc;
